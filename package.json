@@ -10,7 +10,8 @@
     "postinstall": "prisma generate",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
-    "prepare": "husky"
+    "prepare": "husky",
+    "commit": "npx cz"
   },
   "config": {
     "commitizen": {
